@@ -33,7 +33,7 @@ def check_bookmyshow_selenium(movie_name, city="hyderabad"):
         # initial wait
         time.sleep(3)
 
-        # 🔥 Scroll multiple times to load dynamic content
+        # 🔥 Scroll multiple times to load dynamic contents
         print("Scrolling to load all movies...")
 
         for i in range(4):
@@ -48,7 +48,7 @@ def check_bookmyshow_selenium(movie_name, city="hyderabad"):
 
         print("Searching for:", normalized_movie)
 
-        # 🔍 Basic match
+        # 🔍 Basic match is been done
         if normalized_movie in normalized_page:
             return {
                 "bms_available": True,
