@@ -17,7 +17,7 @@ def main():
 
         print("\n🤖 Agent Response:")
 
-        # 🚨 Handle clarification case
+        # 🚨 Handle clarification cases where clarification is needed
         if result.get("status") == "clarification_needed":
             print(result.get("message"))
 
